@@ -1,7 +1,6 @@
 import streamlit as st 
 import pandas as pd
 import numpy as nps
-import matplotlib.pyplot as plt
 
  
 customers_df = pd.read_csv("https://raw.githubusercontent.com/Rachryy/Dataset/main/olist_customers_dataset.csv")
