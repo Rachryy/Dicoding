@@ -10,10 +10,7 @@ orders_dataset_df = pd.read_csv("https://raw.githubusercontent.com/Rachryy/Datas
 orders_item_dataset_df = pd.read_csv("https://raw.githubusercontent.com/Rachryy/Dataset/main/olist_order_items_dataset.csv")
 
 orders_dataset_df.dropna(axis=0, inplace=True)
-orders_dataset_df.isnull().sum()
-
 products_df.dropna(axis=0, inplace=True)
-products_df.isnull().sum()
 
 
 
